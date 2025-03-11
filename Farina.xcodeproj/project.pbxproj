@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		19E783572D80983600232743 /* VecLab in Frameworks */ = {isa = PBXBuildFile; productRef = 19E783562D80983600232743 /* VecLab */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		19E783442D80981400232743 /* Farina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E783572D80983600232743 /* VecLab in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = Farina;
 			packageProductDependencies = (
+				19E783562D80983600232743 /* VecLab */,
 			);
 			productName = Farina;
 			productReference = 19E783442D80981400232743 /* Farina.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 19E7833B2D80981400232743;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				19E783552D80983600232743 /* XCRemoteSwiftPackageReference "VecLab" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 19E783452D80981400232743 /* Products */;
 			projectDirPath = "";
@@ -260,6 +269,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,6 +299,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,6 +335,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		19E783552D80983600232743 /* XCRemoteSwiftPackageReference "VecLab" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marcuspainter/VecLab.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.20;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19E783562D80983600232743 /* VecLab */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19E783552D80983600232743 /* XCRemoteSwiftPackageReference "VecLab" */;
+			productName = VecLab;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 19E7833C2D80981400232743 /* Project object */;
 }

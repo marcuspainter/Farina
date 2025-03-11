@@ -1,0 +1,15 @@
+{
+  "originHash" : "d76b93469885a08c41633344d945a2782bcb9cf9a64f9423aed71a17d0ebf753",
+  "pins" : [
+    {
+      "identity" : "veclab",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/marcuspainter/VecLab.git",
+      "state" : {
+        "revision" : "e0ed1b581a538b85455a9b76b13c61dd9abbd67e",
+        "version" : "0.2.20"
+      }
+    }
+  ],
+  "version" : 3
+}
