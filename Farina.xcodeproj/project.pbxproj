@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		19E783572D80983600232743 /* VecLab in Frameworks */ = {isa = PBXBuildFile; productRef = 19E783562D80983600232743 /* VecLab */; };
+		19E783872D80C12400232743 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 19E783862D80C12400232743 /* README.md */; };
+		19E7838B2D81078300232743 /* FarinaApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 19E7838A2D81078300232743 /* FarinaApp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		19E783442D80981400232743 /* Farina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E783862D80C12400232743 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		19E7838A2D81078300232743 /* FarinaApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FarinaApp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,6 +41,8 @@
 		19E7833B2D80981400232743 = {
 			isa = PBXGroup;
 			children = (
+				19E7838A2D81078300232743 /* FarinaApp.png */,
+				19E783862D80C12400232743 /* README.md */,
 				19E783462D80981400232743 /* Farina */,
 				19E783452D80981400232743 /* Products */,
 			);
@@ -118,6 +124,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E783872D80C12400232743 /* README.md in Resources */,
+				19E7838B2D81078300232743 /* FarinaApp.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
